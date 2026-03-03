@@ -1,39 +1,23 @@
-import React, { useState } from 'react';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { IndustryOverview } from './components/IndustryOverview';
-import { Jobs } from './components/Jobs';
-import { FAQ } from './components/FAQ';
-import { Impressum } from './components/Impressum';
-import { Employers } from './components/Employers';
-import { Page } from './types';
+// HR-UPDATER: v1.0
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Impressum from './pages/Impressum';
+import Datenschutz from './pages/Datenschutz';
+import AutorSeite from './pages/AutorSeite';
 
 const App: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState<Page>(Page.HOME);
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case Page.HOME:
-        return <Home onNavigate={setCurrentPage} />;
-      case Page.INDUSTRY:
-        return <IndustryOverview />;
-      case Page.JOBS:
-        return <Jobs />;
-      case Page.FAQ:
-        return <FAQ />;
-      case Page.EMPLOYERS:
-        return <Employers />;
-      case Page.IMPRESSUM:
-        return <Impressum />;
-      default:
-        return <Home onNavigate={setCurrentPage} />;
-    }
-  };
-
   return (
-    <Layout currentPage={currentPage} onNavigate={setCurrentPage}>
-      {renderPage()}
-    </Layout>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/kontakt" element={<Contact />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
+        <Route path="/autor/thomas-sander" element={<AutorSeite />} />
+      </Routes>
+    </HashRouter>
   );
 };
 

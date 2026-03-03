@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "energietechnik-stellenangebote.de",
+  "url": "https://energietechnik-stellenangebote.de",
+  "description": "Spezialisiertes Jobportal fuer Energietechnik-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
+  "logo": "https://energietechnik-stellenangebote.de/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": [
+      "German",
+      "English"
+    ]
+  },
+  "sameAs": []
+}

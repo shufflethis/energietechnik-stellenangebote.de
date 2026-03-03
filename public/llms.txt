@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# energietechnik-stellenangebote.de - Energietechnik Stellenangebote
+
+> energietechnik-stellenangebote.de ist ein spezialisiertes Jobportal fuer Energietechnik-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Energietechnik
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://energietechnik-stellenangebote.de
+- Arbeitgeber-Kontakt: https://energietechnik-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://energietechnik-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Energietechnik-Stellenangebote
+- Karriere-Ratgeber fuer Energietechnik
+- Gehaltsvergleiche und Brancheninformationen
