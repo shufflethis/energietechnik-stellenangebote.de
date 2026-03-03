@@ -58,53 +58,228 @@ export const FAQ_DATA = [
 
 export const MOCK_JOBS = [
   {
-    id: "1",
-    title: "Senior Projektingenieur Hochspannung (m/w/d)",
-    company: "TenneT TSO GmbH",
-    location: "Bayreuth / Hybrid",
-    type: "Vollzeit",
-    salary: "85.000€ - 100.000€",
-    tags: ["HGÜ", "Netzausbau", "Projektmanagement"],
-    posted: "Vor 2 Tagen"
+    id: '1',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'APS Group GmbH & Co KG',
+    location: 'Linz',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-03-03'
   },
   {
-    id: "2",
-    title: "Inbetriebnehmer Leittechnik (m/w/d)",
-    company: "Siemens Energy",
-    location: "Erlangen / Weltweit",
-    type: "Vollzeit",
-    salary: "70.000€ - 90.000€",
-    tags: ["SCADA", "Reisereitschaft", "Automatisierung"],
-    posted: "Vor 5 Stunden"
+    id: '2',
+    title: 'Energietechnik Ingenieur (m/w/d)',
+    company: 'Stadtwerke Karlsruhe GmbH',
+    location: 'Karlsruhe, Baden',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-03'
   },
   {
-    id: "3",
-    title: "Servicetechniker Windkraft Offshore (m/w/d)",
-    company: "Orsted Germany",
-    location: "Norddeich",
-    type: "Schichtarbeit",
-    salary: "65.000€ + Zulagen",
-    tags: ["Mechanik", "Offshore", "Wartung"],
-    posted: "Heute"
+    id: '3',
+    title: 'Messtechniker - Energietechnik (m/w/d)',
+    company: 'TimePartner Personalmanagement GmbH',
+    location: 'Laage',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-03-02'
   },
   {
-    id: "4",
-    title: "Planungsingenieur PV-Freiflächen (m/w/d)",
-    company: "EnBW",
-    location: "Karlsruhe",
-    type: "Vollzeit",
-    salary: "60.000€ - 80.000€",
-    tags: ["Photovoltaik", "AutoCAD", "Erneuerbare"],
-    posted: "Vor 1 Woche"
+    id: '4',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'ORS comm GmbH & Co KG',
+    location: 'Österreich',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-03-02'
   },
   {
-    id: "5",
-    title: "Teamleiter Netzplanung (m/w/d)",
-    company: "Westnetz GmbH",
-    location: "Dortmund",
-    type: "Vollzeit",
-    salary: "95.000€+",
-    tags: ["Führung", "Niederspannung", "Asset Management"],
-    posted: "Vor 3 Tagen"
+    id: '5',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'Trenkwalder Personaldienste GmbH',
+    location: 'Leoben',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-03-02'
+  },
+  {
+    id: '6',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'WFL Millturn Technologies GmbH & Co. KG',
+    location: 'Linz',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-03-02'
+  },
+  {
+    id: '7',
+    title: 'Ingenieur - Energietechnik (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Aalen',
+    location: 'Aalen, Württemberg',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-02'
+  },
+  {
+    id: '8',
+    title: 'Ingenieur Energietechnik (m/w/d)',
+    company: 'Stadtwerke Strausberg GmbH',
+    location: 'Strausberg',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-02'
+  },
+  {
+    id: '9',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'PKE Gebaüdetechnik GmbH.',
+    location: 'Linz',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-26'
+  },
+  {
+    id: '10',
+    title: 'Ingenieur - Energietechnik (m/w/d)',
+    company: '4u2work GmbH & Co. KG',
+    location: 'Joldelund',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-26'
+  },
+  {
+    id: '11',
+    title: 'Ingenieur Energietechnik (m/w/d)',
+    company: 'FERCHAU GmbH Niederlassung Oldenburg',
+    location: 'Oldenburg (Oldb)',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-24'
+  },
+  {
+    id: '12',
+    title: 'Ingenieur Energietechnik (m/w/d)',
+    company: 'FERCHAU GmbH Niederlassung Dresden',
+    location: 'Dresden',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-24'
+  },
+  {
+    id: '13',
+    title: 'Spezialist (m/w/d) Energietechnik',
+    company: 'FERCHAU GmbH Niederlassung Nürnberg City',
+    location: 'Nürnberg, Mittelfranken',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-24'
+  },
+  {
+    id: '14',
+    title: 'Ingenieur Energietechnik (m/w/d)',
+    company: 'FERCHAU GmbH Niederlassung Osnabrück',
+    location: 'Rheine',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-23'
+  },
+  {
+    id: '15',
+    title: 'Projektleiter Energietechnik (w/m/d)',
+    company: 'Brunel GmbH NL Kassel',
+    location: 'Kassel, Hessen',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-23'
+  },
+  {
+    id: '16',
+    title: 'Serviceingenieur Energietechnik (m/w/d)',
+    company: 'simplecon GmbH',
+    location: 'Dresden',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-23'
+  },
+  {
+    id: '17',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'BAUR GmbH',
+    location: 'Sulz',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-23'
+  },
+  {
+    id: '18',
+    title: 'Messtechniker (m/w/d) Energietechnik',
+    company: 'FERCHAU GmbH Niederlassung Nürnberg City',
+    location: 'Nürnberg, Mittelfranken',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Elektrotechnik'],
+    posted: '2026-02-20'
+  },
+  {
+    id: '19',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'PLANSEE SE',
+    location: 'Reutte',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-20'
+  },
+  {
+    id: '20',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'Trenkwalder Personaldienste GmbH',
+    location: 'Kapfenberg',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-18'
+  },
+  {
+    id: '21',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'JOBS Experts Industrieservi ce GmbH',
+    location: 'Wien,Liesing',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-18'
+  },
+  {
+    id: '22',
+    title: 'Testingenieur Energietechnik (m/w/d)',
+    company: 'Akkodis Germany Tech Experts GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-17'
+  },
+  {
+    id: '23',
+    title: 'Energietechnik Ingenieur (m/w/d)',
+    company: 'GS Company Cottbus GmbH & Co. KG',
+    location: 'Cottbus',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-02-17'
+  },
+  {
+    id: '24',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'Gubert GmbH',
+    location: 'Ebbs',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-16'
+  },
+  {
+    id: '25',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'teampool personal service gmbh',
+    location: 'Liezen',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-02-12'
   }
 ];
