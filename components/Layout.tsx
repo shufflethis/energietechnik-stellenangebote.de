@@ -148,7 +148,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentPage, onNavigat
                 <li><button onClick={() => onNavigate(Page.IMPRESSUM)} className="hover:text-emerald-400">AGB</button></li>
                 <li className="flex items-center mt-4 text-emerald-500">
                   <Mail size={16} className="mr-2" />
-                  <a href="mailto:kontakt@energietechnik-stellenangebote.de">kontakt@energietechnik-stellenangebote.de</a>
+                  <a href="mailto:info@socialmediaventure.com">info@socialmediaventure.com</a>
                 </li>
               </ul>
             </div>
