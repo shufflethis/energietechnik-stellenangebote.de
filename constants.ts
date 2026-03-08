@@ -59,6 +59,51 @@ export const FAQ_DATA = [
 export const MOCK_JOBS = [
   {
     id: '1',
+    title: 'Ingenieur Energietechnik (m/w/d)',
+    company: 'Randstad Deutschland',
+    location: 'Bremen',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-06'
+  },
+  {
+    id: '2',
+    title: 'Ingenieur (m/w/d) Energietechnik',
+    company: 'GS Company Cottbus GmbH & Co. KG',
+    location: 'Cottbus',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-05'
+  },
+  {
+    id: '3',
+    title: 'Ingenieur (m/w/d) Energietechnik',
+    company: 'GS Company Cottbus GmbH & Co. KG',
+    location: 'Senftenberg, Niederlausitz',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-05'
+  },
+  {
+    id: '4',
+    title: 'Ingenieur (m/w/d) Energietechnik',
+    company: 'GS Company Cottbus GmbH & Co. KG',
+    location: 'Schönefeld bei Berlin',
+    type: 'Vollzeit',
+    tags: ['Ingenieur/in - Energietechnik'],
+    posted: '2026-03-05'
+  },
+  {
+    id: '5',
+    title: 'Messtechniker/in (Energietechnik)',
+    company: 'Büroring Personalmanagement GmbH',
+    location: 'Schwechat',
+    type: 'Vollzeit',
+    tags: ['Messtechniker/in (Energietechnik)'],
+    posted: '2026-03-04'
+  },
+  {
+    id: '6',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'APS Group GmbH & Co KG',
     location: 'Linz',
@@ -67,7 +112,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-03'
   },
   {
-    id: '2',
+    id: '7',
     title: 'Energietechnik Ingenieur (m/w/d)',
     company: 'Stadtwerke Karlsruhe GmbH',
     location: 'Karlsruhe, Baden',
@@ -76,7 +121,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-03'
   },
   {
-    id: '3',
+    id: '8',
     title: 'Messtechniker - Energietechnik (m/w/d)',
     company: 'TimePartner Personalmanagement GmbH',
     location: 'Laage',
@@ -85,7 +130,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-02'
   },
   {
-    id: '4',
+    id: '9',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'ORS comm GmbH & Co KG',
     location: 'Österreich',
@@ -94,7 +139,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-02'
   },
   {
-    id: '5',
+    id: '10',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'Trenkwalder Personaldienste GmbH',
     location: 'Leoben',
@@ -103,7 +148,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-02'
   },
   {
-    id: '6',
+    id: '11',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'WFL Millturn Technologies GmbH & Co. KG',
     location: 'Linz',
@@ -112,7 +157,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-02'
   },
   {
-    id: '7',
+    id: '12',
     title: 'Ingenieur - Energietechnik (m/w/d)',
     company: 'Tempton Personaldienstleistungen GmbH NL Aalen',
     location: 'Aalen, Württemberg',
@@ -121,7 +166,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-02'
   },
   {
-    id: '8',
+    id: '13',
     title: 'Ingenieur Energietechnik (m/w/d)',
     company: 'Stadtwerke Strausberg GmbH',
     location: 'Strausberg',
@@ -130,7 +175,7 @@ export const MOCK_JOBS = [
     posted: '2026-03-02'
   },
   {
-    id: '9',
+    id: '14',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'PKE Gebaüdetechnik GmbH.',
     location: 'Linz',
@@ -139,7 +184,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-26'
   },
   {
-    id: '10',
+    id: '15',
     title: 'Ingenieur - Energietechnik (m/w/d)',
     company: '4u2work GmbH & Co. KG',
     location: 'Joldelund',
@@ -148,7 +193,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-26'
   },
   {
-    id: '11',
+    id: '16',
     title: 'Ingenieur Energietechnik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Oldenburg',
     location: 'Oldenburg (Oldb)',
@@ -157,7 +202,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-24'
   },
   {
-    id: '12',
+    id: '17',
     title: 'Ingenieur Energietechnik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Dresden',
     location: 'Dresden',
@@ -166,7 +211,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-24'
   },
   {
-    id: '13',
+    id: '18',
     title: 'Spezialist (m/w/d) Energietechnik',
     company: 'FERCHAU GmbH Niederlassung Nürnberg City',
     location: 'Nürnberg, Mittelfranken',
@@ -175,7 +220,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-24'
   },
   {
-    id: '14',
+    id: '19',
     title: 'Ingenieur Energietechnik (m/w/d)',
     company: 'FERCHAU GmbH Niederlassung Osnabrück',
     location: 'Rheine',
@@ -184,7 +229,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-23'
   },
   {
-    id: '15',
+    id: '20',
     title: 'Projektleiter Energietechnik (w/m/d)',
     company: 'Brunel GmbH NL Kassel',
     location: 'Kassel, Hessen',
@@ -193,7 +238,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-23'
   },
   {
-    id: '16',
+    id: '21',
     title: 'Serviceingenieur Energietechnik (m/w/d)',
     company: 'simplecon GmbH',
     location: 'Dresden',
@@ -202,7 +247,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-23'
   },
   {
-    id: '17',
+    id: '22',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'BAUR GmbH',
     location: 'Sulz',
@@ -211,7 +256,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-23'
   },
   {
-    id: '18',
+    id: '23',
     title: 'Messtechniker (m/w/d) Energietechnik',
     company: 'FERCHAU GmbH Niederlassung Nürnberg City',
     location: 'Nürnberg, Mittelfranken',
@@ -220,7 +265,7 @@ export const MOCK_JOBS = [
     posted: '2026-02-20'
   },
   {
-    id: '19',
+    id: '24',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'PLANSEE SE',
     location: 'Reutte',
@@ -229,57 +274,12 @@ export const MOCK_JOBS = [
     posted: '2026-02-20'
   },
   {
-    id: '20',
+    id: '25',
     title: 'Messtechniker/in (Energietechnik)',
     company: 'Trenkwalder Personaldienste GmbH',
     location: 'Kapfenberg',
     type: 'Vollzeit',
     tags: ['Messtechniker/in (Energietechnik)'],
     posted: '2026-02-18'
-  },
-  {
-    id: '21',
-    title: 'Messtechniker/in (Energietechnik)',
-    company: 'JOBS Experts Industrieservi ce GmbH',
-    location: 'Wien,Liesing',
-    type: 'Vollzeit',
-    tags: ['Messtechniker/in (Energietechnik)'],
-    posted: '2026-02-18'
-  },
-  {
-    id: '22',
-    title: 'Testingenieur Energietechnik (m/w/d)',
-    company: 'Akkodis Germany Tech Experts GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    tags: ['Ingenieur/in - Energietechnik'],
-    posted: '2026-02-17'
-  },
-  {
-    id: '23',
-    title: 'Energietechnik Ingenieur (m/w/d)',
-    company: 'GS Company Cottbus GmbH & Co. KG',
-    location: 'Cottbus',
-    type: 'Vollzeit',
-    tags: ['Ingenieur/in - Energietechnik'],
-    posted: '2026-02-17'
-  },
-  {
-    id: '24',
-    title: 'Messtechniker/in (Energietechnik)',
-    company: 'Gubert GmbH',
-    location: 'Ebbs',
-    type: 'Vollzeit',
-    tags: ['Messtechniker/in (Energietechnik)'],
-    posted: '2026-02-16'
-  },
-  {
-    id: '25',
-    title: 'Messtechniker/in (Energietechnik)',
-    company: 'teampool personal service gmbh',
-    location: 'Liezen',
-    type: 'Vollzeit',
-    tags: ['Messtechniker/in (Energietechnik)'],
-    posted: '2026-02-12'
   }
 ];
