@@ -1,14 +1,15 @@
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.API_KEY || '';
-const ai = new GoogleGenAI({ apiKey });
+const FALLBACK_MESSAGE = "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.";
 
 export const getCareerAdvice = async (userQuery: string, context: string): Promise<string> => {
+  const apiKey = process.env.API_KEY || '';
   if (!apiKey) {
-    return "API Key fehlt. Bitte konfigurieren Sie die Umgebungsvariablen.";
+    return FALLBACK_MESSAGE;
   }
 
   try {
+    const ai = new GoogleGenAI({ apiKey });
     const model = 'gemini-2.5-flash';
     const systemInstruction = `
       Du bist ein erfahrener Karriereberater für die Energietechnik-Branche in Deutschland.
@@ -34,6 +35,6 @@ export const getCareerAdvice = async (userQuery: string, context: string): Promi
     return response.text || "Entschuldigung, ich konnte keine Beratung generieren.";
   } catch (error) {
     console.error("Gemini API Error:", error);
-    return "Es gab ein technisches Problem bei der Anfrage. Bitte versuchen Sie es später erneut.";
+    return FALLBACK_MESSAGE;
   }
 };

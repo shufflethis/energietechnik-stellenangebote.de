@@ -28,7 +28,7 @@ export const FAQ: React.FC = () => {
         <div className="mt-12 bg-emerald-900 rounded-2xl p-8 text-center text-white">
             <h3 className="text-xl font-bold mb-4">Noch Fragen offen?</h3>
             <p className="mb-6 text-emerald-100">Unser Support-Team hilft Ihnen gerne weiter, egal ob Sie Arbeitgeber oder Bewerber sind.</p>
-            <a href="mailto:support@energietechnik-stellenangebote.de" className="inline-block px-6 py-3 bg-white text-emerald-900 font-bold rounded-lg hover:bg-emerald-50 transition-colors">
+            <a href="mailto:info@socialmediaventure.com" className="inline-block px-6 py-3 bg-white text-emerald-900 font-bold rounded-lg hover:bg-emerald-50 transition-colors">
                 Kontakt aufnehmen
             </a>
         </div>
