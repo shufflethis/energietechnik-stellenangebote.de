@@ -1,8 +1,9 @@
 import React from 'react';
 import { Page } from '../types';
-import { HERO_TITLE, HERO_SUBTITLE, MOCK_JOBS } from '../constants';
-import { ArrowRight, Search, MapPin, Briefcase } from 'lucide-react';
+import { HERO_TITLE, HERO_SUBTITLE, MOCK_JOBS, FAQ_DATA } from '../constants';
+import { ArrowRight, Search, MapPin, Briefcase, HelpCircle, TrendingUp, GraduationCap, Shield } from 'lucide-react';
 import { AICareerCoach } from './AICareerCoach';
+import { GermanCities } from './geo/GermanCities';
 
 interface HomeProps {
   onNavigate: (page: Page) => void;
@@ -132,19 +133,134 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         </div>
       </div>
 
+      {/* Mobile: Quick Job List - visible on small screens for prominence */}
+      <div className="md:hidden bg-white py-8 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-slate-900 mb-4">Neueste Stellenangebote</h2>
+          <div className="space-y-3">
+            {MOCK_JOBS.slice(0, 5).map((job) => (
+              <div key={job.id} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg border border-slate-100">
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-sm font-semibold text-slate-900 truncate">{job.title}</h3>
+                  <div className="flex items-center text-xs text-slate-500 mt-0.5">
+                    <MapPin className="h-3 w-3 mr-1 flex-shrink-0" /> {job.location}
+                  </div>
+                </div>
+                <button className="ml-3 px-3 py-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 rounded-lg flex-shrink-0">
+                  Details
+                </button>
+              </div>
+            ))}
+          </div>
+          <button
+            onClick={() => onNavigate(Page.JOBS)}
+            className="w-full mt-4 py-3 bg-emerald-600 text-white font-semibold rounded-lg"
+          >
+            Alle Stellen anzeigen
+          </button>
+        </div>
+      </div>
+
       {/* AI Assistant Section */}
       <div className="bg-slate-50 py-20 border-y border-slate-200">
          <div className="max-w-3xl mx-auto px-4">
             <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold text-slate-900 mb-4">Ihre Karriere im Fokus</h2>
                 <p className="text-lg text-slate-600">
-                    Nutzen Sie unsere generative KI, um genau die Position zu finden, die zu Ihren Fähigkeiten passt. 
+                    Nutzen Sie unsere generative KI, um genau die Position zu finden, die zu Ihren Fähigkeiten passt.
                     Kein endloses Suchen mehr.
                 </p>
             </div>
             <AICareerCoach />
          </div>
       </div>
+
+      {/* German Cities Geo SEO Section */}
+      <GermanCities />
+
+      {/* Career Info Section */}
+      <section className="bg-slate-50 py-16 border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Karriere in der Energietechnik</h2>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+              Die Energiebranche bietet sichere Arbeitsplaetze mit Zukunft. Hier finden Sie wichtige Informationen fuer Ihren Karriereweg.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+              <div className="p-3 bg-emerald-50 rounded-lg w-fit mb-4">
+                <TrendingUp className="h-6 w-6 text-emerald-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Gehalt & Perspektiven</h3>
+              <p className="text-slate-600 text-sm leading-relaxed mb-3">
+                Ingenieure der Energietechnik verdienen zwischen 55.000 und 95.000 Euro jaehrlich. Projektleiter erreichen bis zu 110.000 Euro. Die Branche waechst durch die Energiewende stetig.
+              </p>
+              <ul className="text-sm text-slate-500 space-y-1">
+                <li>Ingenieur: 55.000 - 95.000 Euro/Jahr</li>
+                <li>Techniker/Meister: 45.000 - 70.000 Euro/Jahr</li>
+                <li>Projektleiter: 70.000 - 110.000 Euro/Jahr</li>
+                <li>IT-Spezialist Energie: 60.000 - 100.000 Euro/Jahr</li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+              <div className="p-3 bg-emerald-50 rounded-lg w-fit mb-4">
+                <GraduationCap className="h-6 w-6 text-emerald-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Einstieg & Weiterbildung</h3>
+              <p className="text-slate-600 text-sm leading-relaxed mb-3">
+                Der klassische Weg fuehrt ueber ein Studium der Elektro- oder Energietechnik. Doch auch Quereinsteiger haben Chancen, besonders in Projektmanagement, PV-Vertrieb und IT.
+              </p>
+              <ul className="text-sm text-slate-500 space-y-1">
+                <li>Studium: Elektrotechnik, Energietechnik</li>
+                <li>Techniker: Staatlich geprueft, Industriemeister</li>
+                <li>Quereinstieg: Projektmanagement, Vertrieb, IT</li>
+                <li>Weiterbildung: HGUe, SCADA, Cyber Security</li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+              <div className="p-3 bg-emerald-50 rounded-lg w-fit mb-4">
+                <Shield className="h-6 w-6 text-emerald-600" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Zukunftssicherheit</h3>
+              <p className="text-slate-600 text-sm leading-relaxed mb-3">
+                Die Energietechnik ist eine der krisensichersten Branchen. Der Ausstieg aus Kohle und Atom, Elektromobilitaet und Waermepumpen treiben den Bedarf an Fachkraeften langfristig.
+              </p>
+              <ul className="text-sm text-slate-500 space-y-1">
+                <li>Netzausbau: SuedLink, SuedOstLink</li>
+                <li>Speichertechnik: Batteriespeicher, Power-to-X</li>
+                <li>Smart Grids & Digitalisierung</li>
+                <li>Gruener Wasserstoff & Elektrolyse</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="bg-white py-16 border-t border-slate-200">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <HelpCircle className="mx-auto h-10 w-10 text-emerald-500 mb-4" />
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Haeufig gestellte Fragen</h2>
+            <p className="text-lg text-slate-600">
+              Alles was Sie ueber den Einstieg und Aufstieg in der Energietechnik wissen muessen.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            {FAQ_DATA.map((item, index) => (
+              <div key={index} className="bg-slate-50 rounded-xl border border-slate-200 p-6">
+                <h3 className="text-lg font-bold text-slate-900 mb-3">{item.question}</h3>
+                <p className="text-slate-600 leading-relaxed">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

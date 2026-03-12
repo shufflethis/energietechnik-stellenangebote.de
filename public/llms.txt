@@ -1,19 +1,30 @@
-# HR-UPDATER: v1.0
-# energietechnik-stellenangebote.de - Energietechnik Stellenangebote
+# energietechnik-stellenangebote.de
 
-> energietechnik-stellenangebote.de ist ein spezialisiertes Jobportal fuer Energietechnik-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> energietechnik-stellenangebote.de ist ein spezialisiertes Jobportal fuer Energietechnik-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Energietechnik
+- Spezialisiertes Jobportal fuer Energietechnik-Fachkraefte
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Betreiber: Social Media Venture GmbH
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin, Deutschland
+- Telefon: +49 30 959 988 700
+- E-Mail: info@socialmediaventure.com
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
+
+## Inhalte
+- Aktuelle Energietechnik-Stellenangebote (Ingenieure, Techniker, Messtechniker, Projektleiter)
+- Karriere-Ratgeber fuer Energietechnik und Energiewende
+- Brancheninformationen und Gehaltsvergleiche
+- FAQ fuer Bewerber und Arbeitgeber
+- Regionale Stellenangebote in deutschen Staedten
 
 ## Kontakt
 - Website: https://energietechnik-stellenangebote.de
-- Arbeitgeber-Kontakt: https://energietechnik-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://energietechnik-stellenangebote.de/kontakt-bewerber
-
-## Inhalte
-- Aktuelle Energietechnik-Stellenangebote
-- Karriere-Ratgeber fuer Energietechnik
-- Gehaltsvergleiche und Brancheninformationen
+- Kontaktseite: https://energietechnik-stellenangebote.de/#/kontakt
+- Impressum: https://energietechnik-stellenangebote.de/#/impressum
+- Datenschutz: https://energietechnik-stellenangebote.de/#/datenschutz
